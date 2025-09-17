@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+  </head>
+  <body> </body>
+  <div class="container"> 
+    <header> 
+      <h1>Listado y registro de MACs </h1>
+    </header>
+    <main> 
+      <table> 
+        <thead> 
+          <tr> 
+            <th>Clase\Grupo </th>
+            <th>Dirección MAC </th>
+            <th>Apodo </th>
+            <th>Comentario </th>
+            <th colspan="2">Acciones</th>
+          </tr>
+        </thead>
+        <tbody> 
+          <tr>
+            <td>DAW_1</td>
+            <td>74:56:3C:59:E1:1D</td>
+            <td>PC_1DAW1</td>
+            <td>Ordenador de ejemplo </td>
+            <td> 
+              <input type="button" value="Eliminar">
+            </td>
+            <td> 
+              <input type="button" value="Actualizar">
+            </td>
+          </tr>
+          <tr>
+            <td>DAW_1</td>
+            <td>11:22:33:44:55:66</td>
+            <td>Router</td>
+            <td>Este es el router </td>
+            <td> 
+              <input type="button" value="Eliminar">
+            </td>
+            <td> 
+              <input type="button" value="Actualizar">
+            </td>
+          </tr>
+          <tr>
+            <td>SERVIDOR</td>
+            <td>AA:BB:CC:DD:EE:FF</td>
+            <td>Servidor</td>
+            <td>Este es el servidor </td>
+            <td> 
+              <input type="button" value="Eliminar">
+            </td>
+            <td> 
+              <input type="button" value="Actualizar">
+            </td>
+          </tr>
+        </tbody>
+        <tfoot> 
+          <tr>
+            <td> 
+              <input type="text" name="ClaseGrupo" placeholder="Clase\Grupo">
+            </td>
+            <td> 
+              <input type="text" name="Dirección MAC" placeholder="Dirección MAC">
+            </td>
+            <td> 
+              <input type="text" name="Apodo" placeholder="Apodo">
+            </td>
+            <td> 
+              <input type="text" name="Comentariio" placeholder="Comentario">
+            </td>
+            <td> 
+              <input type="submit" value="Agregar MAC">
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </main>
+  </div>
+</html>

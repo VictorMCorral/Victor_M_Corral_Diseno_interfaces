@@ -1,0 +1,60 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="estilos.css")
+        title Document
+    body 
+    div.container 
+        header 
+            h1 Listado y registro de MACs 
+        main 
+            table 
+                thead 
+                    tr 
+                        th Clase\Grupo 
+                        th Dirección MAC 
+                        th Apodo 
+                        th Comentario 
+                        th(colspan= "2") Acciones
+                tbody 
+                    tr
+                        td DAW_1
+                        td 74:56:3C:59:E1:1D
+                        td PC_1DAW1
+                        td Ordenador de ejemplo 
+                        td 
+                            input(type="button", value="Eliminar")
+                        td 
+                            input(type="button", value="Actualizar")
+                    tr
+                        td DAW_1
+                        td 11:22:33:44:55:66
+                        td Router
+                        td Este es el router 
+                        td 
+                            input(type="button", value="Eliminar")
+                        td 
+                            input(type="button", value="Actualizar")
+                    tr
+                        td SERVIDOR
+                        td AA:BB:CC:DD:EE:FF
+                        td Servidor
+                        td Este es el servidor 
+                        td 
+                            input(type="button", value="Eliminar")
+                        td 
+                            input(type="button", value="Actualizar")
+                tfoot 
+                    tr
+                        td 
+                            input(type="text" name="Clase\Grupo" placeholder="Clase\\Grupo")
+                        td 
+                            input(type="text" name="Dirección MAC" placeholder="Dirección MAC")
+                        td 
+                            input(type="text" name="Apodo" placeholder="Apodo")
+                        td 
+                            input(type="text" name="Comentariio" placeholder= "Comentario")
+                        td 
+                            input(type="submit" value="Agregar MAC")

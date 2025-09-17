@@ -11,13 +11,7 @@
 <body>
     <div class="container">
         <header>
-            <form class="agregar-mac">
-                <input type="text" placeholder="Clase/Grupo">
-                <input type="text" placeholder="Dirección MAC">
-                <input type="text" placeholder="Apodo">
-                <input type="text" placeholder="Comentario">
-                <button type="submit">Agregar MAC</button>
-            </form>
+            <h1>Listado y registro de MACs</h1>
         </header>
 
         <main>
@@ -28,7 +22,8 @@
                         <th>Dirección MAC</th>
                         <th>Apodo</th>
                         <th>Comentario</th>
-                        <th>Acciones</th>
+                        <th></th>
+                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -38,11 +33,10 @@
                         <td>PC_1DAW1</td>
                         <td>Ordenador de ejemplo</td>
                         <td>
-                            <select>
-                                <option>Acciones</option>
-                                <option>Eliminar</option>
-                                <option>Actualizar</option>
-                            </select>
+                            <input type="button" value="Eliminar">
+                        </td>
+                        <td>
+                            <input type="button" value="Actualizar">
                         </td>
                     </tr>
                     <tr>
@@ -51,11 +45,10 @@
                         <td>Router</td>
                         <td>Este es el router</td>
                         <td>
-                            <select>
-                                <option>Acciones</option>
-                                <option>Eliminar</option>
-                                <option>Actualizar</option>
-                            </select>
+                            <input type="button" value="Eliminar">
+                        </td>
+                        <td>
+                            <input type="button" value="Actualizar">
                         </td>
                     </tr>
                     <tr>
@@ -64,14 +57,32 @@
                         <td>Servidor</td>
                         <td>Este es el servidor</td>
                         <td>
-                            <select>
-                                <option>Acciones</option>
-                                <option>Eliminar</option>
-                                <option>Actualizar</option>
-                            </select>
+                            <input type="button" value="Eliminar">
+                        </td>
+                        <td>
+                            <input type="button" value="Actualizar">
                         </td>
                     </tr>
                 </tbody>
+                <tfoot>
+                    <tr>
+                        <td>
+                            <input type="text" placeholder="Clase/Grupo">
+                        </td>
+                        <td>
+                            <input type="text" placeholder="Dirección MAC">
+                        </td>
+                        <td>
+                            <input type="text" placeholder="Apodo">
+                        </td>
+                        <td>
+                            <input type="text" placeholder="Comentario">
+                        </td>
+                        <td>
+                            <button type="submit">Agregar MAC</button>
+                        </td>
+                    </tr>
+                </tfoot>
             </table>
         </main>
     </div>
