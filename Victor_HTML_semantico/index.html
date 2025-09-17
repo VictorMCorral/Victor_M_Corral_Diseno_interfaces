@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Listado de MACs</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <form class="agregar-mac">
+                <input type="text" placeholder="Dirección MAC">
+                <input type="text" placeholder="Apodo">
+                <button type="submit">Agregar MAC</button>
+            </form>
+        </header>
+
+        <main>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dirección MAC</th>
+                        <th>Apodo</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>74:56:3C:59:E1:1D</td>
+                        <td>PC_1DAW1</td>
+                        <td>
+                            <select>
+                                <option>Acciones</option>
+                                <option>Eliminar</option>
+                                <option>Actualizar</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>11:22:33:44:55:66</td>
+                        <td>Router</td>
+                        <td>
+                            <select>
+                                <option>Acciones</option>
+                                <option>Eliminar</option>
+                                <option>Actualizar</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>AA:BB:CC:DD:EE:FF</td>
+                        <td>Servidor</td>
+                        <td>
+                            <select>
+                                <option>Acciones</option>
+                                <option>Eliminar</option>
+                                <option>Actualizar</option>
+                            </select>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </div>
+</body>
+
+</html>
