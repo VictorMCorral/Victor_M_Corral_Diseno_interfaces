@@ -1,10 +1,11 @@
-$colorFondo: #fff;
-$colorDiv: #f5f6fa;
-$colorEnunciado: #f0f0f0;
+$colorFondo: black;
+$colorEnunciado: #979797;
+$fontColor: white;
 
 
 
 body {
+    color:$fontColor;
     width: 100%;
     margin: 0;
     background: $colorFondo;
@@ -44,9 +45,16 @@ table {
     padding: 0.5rem;
     border-collapse: collapse;
 
+    tbody {
+        td {
+            border-bottom: 1px solid;
+            border-color: #979797;
+        }
+    }
+
     th,
     td {
-        padding: 5px;
+        padding: 0.5rem 1rem 0.5rem;
         text-align: left;
         border-bottom: 1px solid $colorFondo;
 
@@ -54,10 +62,20 @@ table {
             width: 100%;
             border-radius: 0.5rem;
             height: 2rem;
+            background-color: $colorFondo;
+            color: $fontColor;
+            
         }
+
+        input[type="button"]{
+            background-color: $colorEnunciado;
+        }
+
     }
 
     th {
+        padding: 0.5rem;
+        text-align: center;
         background: $colorEnunciado;
     }
 
@@ -73,6 +91,9 @@ table {
             input[type="submit"] {
                 margin: 0;
                 width: 100%;
+                background-color: $colorEnunciado;
+                border: 0.1rem solid;
+                border-color: $colorFondo;
             }
 
         }
