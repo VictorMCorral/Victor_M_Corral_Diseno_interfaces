@@ -1,0 +1,81 @@
+body {
+  color: white;
+  width: 100%;
+  margin: 0;
+  background: black;
+}
+
+.container {
+  width: 80%;
+  padding: 3%;
+}
+
+header {
+  width: 100%;
+  margin: 0;
+  padding: 0.5rem;
+}
+header h1 {
+  width: 100%;
+  margin: 0;
+  padding: 0.5rem;
+  text-align: center;
+}
+header div {
+  display: flex;
+  gap: 10px;
+}
+
+main {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+table {
+  width: 100%;
+  padding: 0.5rem;
+  border-collapse: collapse;
+}
+table tbody td {
+  border-bottom: 1px solid;
+  border-color: #979797;
+}
+table th,
+table td {
+  padding: 0.5rem 1rem 0.5rem;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+table th input,
+table td input {
+  width: 100%;
+  border-radius: 0.5rem;
+  height: 2rem;
+  background-color: black;
+  color: white;
+}
+table th input[type=button],
+table td input[type=button] {
+  background-color: #979797;
+}
+table th {
+  padding: 0.5rem;
+  text-align: center;
+  background: #979797;
+}
+table tfoot {
+  width: 100%;
+}
+table tfoot td {
+  height: 4rem;
+  background: #979797;
+  align-items: center;
+  justify-content: center;
+}
+table tfoot td input[type=submit] {
+  margin: 0;
+  width: 100%;
+  background-color: #979797;
+  border: 0.1rem solid;
+  border-color: black;
+}
