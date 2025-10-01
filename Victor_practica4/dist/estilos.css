@@ -1,0 +1,86 @@
+.header {
+  width: 100%;
+  margin: 0;
+  padding: 0.5rem;
+}
+.header .header__image {
+  width: 10%;
+}
+.header .header__title {
+  width: 90%;
+  margin: 0;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.main {
+  width: 80%;
+  background: white;
+  color: black;
+  padding: 0 5%;
+  margin: auto;
+}
+.main .main__table {
+  margin-top: 3%;
+  width: 100%;
+  padding: 3%;
+  border-collapse: collapse;
+}
+.main .main__table .table__td {
+  padding: 0.5rem 1rem 0.5rem;
+  text-align: left;
+  border-bottom: 1px solid white;
+}
+.main .main__table .thead__th {
+  padding: 0.5rem;
+  text-align: center;
+  background: #979797;
+}
+.main .main__table .tbody__td {
+  border-bottom: 1px solid;
+  border-color: #979797;
+}
+.main .main__table .tbody__td .td__input {
+  width: 100%;
+  border-radius: 0.5rem;
+  height: 2rem;
+  background-color: white;
+  color: black;
+}
+.main .main__table .tbody__td input[type=button] {
+  background-color: #979797;
+  border-color: white;
+  color: white;
+}
+.main .main__table .table__tfoot {
+  width: 100%;
+}
+.main .main__table .table__tfoot .tfoot__td {
+  height: 4rem;
+  background: #979797;
+  align-items: center;
+  justify-content: center;
+}
+.main .main__table .table__tfoot .tfoot__td .td__input {
+  width: 100%;
+  border-radius: 0.5rem;
+  height: 2rem;
+  background-color: white;
+  color: black;
+}
+.main .main__table .table__tfoot .tfoot__td input[type=submit] {
+  margin: 0;
+  width: 100%;
+  background-color: #979797;
+  border-color: white;
+  color: white;
+}
+
+.footer {
+  width: 100%;
+  padding: 0 3%;
+}
+.footer .footer__p {
+  width: 80%;
+  text-align: center;
+}

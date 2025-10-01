@@ -1,0 +1,33 @@
+table.main__table
+  thead
+    tr
+      th(colspan="6").table__td.thead__th  MACs
+    tr
+      th.table__td.thead__th Clase\Grupo
+      th.table__td.thead__th Dirección MACs
+      th.table__td.thead__th Apodo
+      th.table__td.thead__th Comentario
+      th(colspan="2").table__td.thead__th Acciones
+  tbody
+    tr
+      td.table__td.tbody__td DAW_1
+      td.table__td.tbody__td 192.168.1.1
+      td.table__td.tbody__td PC_1DAW1
+      td.table__td.tbody__td Ordenador de ejemplo
+      td.table__td.tbody__td
+        input.td__input(type="button", value="Eliminar")
+      td.table__td.tbody__td
+        input.td__input(type="button", value="Actualizar")
+    // ... más filas
+  tfoot.table__tfoot
+    tr 
+      td.table__td.tfoot__td
+        input.td__input(type="text", name="Clase\Grupo", placeholder="Clase\\Grupo")
+      td.table__td.tfoot__td
+        input.td__input(type="text", name="Dirección MACs", placeholder="Dirección IP")
+      td.table__td.tfoot__td
+        input.td__input(type="text", name="Apodo", placeholder="Apodo")
+      td.table__td.tfoot__td
+        input.td__input(type="text", name="Comentario", placeholder="Comentario")
+      td(colspan="2").table__td.tfoot__td
+        input.td__input(type="submit", value="Agregar IP")

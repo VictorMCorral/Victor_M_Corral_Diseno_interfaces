@@ -1,0 +1,107 @@
+$colorFondo: white;
+$colorEnunciado: #979797;
+$fontColor: black;
+
+
+
+.header {
+    width: 100%;
+    margin: 0;
+    padding: 0.5rem;
+
+    .header__image {
+        width: 10%;
+    }
+
+    .header__title {
+        width: 90%;
+        margin: 0;
+        padding: 0.5rem;
+        text-align: center;
+    }
+}
+
+.main {
+    width: 80%;
+    background: $colorFondo;
+    color:$fontColor;
+    padding: 0 5%;
+    margin: auto;
+    .main__table {
+        margin-top: 3%;
+        width: 100%;
+        padding: 3%;
+        border-collapse: collapse;
+
+        .table__td {
+            padding: 0.5rem 1rem 0.5rem;
+            text-align: left;
+            border-bottom: 1px solid $colorFondo;
+        }
+
+        .thead__th {
+            padding: 0.5rem;
+            text-align: center;
+            background: $colorEnunciado;
+        }
+
+        .tbody__td {
+            border-bottom: 1px solid;
+            border-color: #979797;
+
+            .td__input{
+                width: 100%;
+                border-radius: 0.5rem;
+                height: 2rem;
+                background-color: $colorFondo;
+                color: $fontColor;
+            }
+
+            input[type="button"]{
+                background-color: $colorEnunciado;
+                border-color: $colorFondo;
+                color: $colorFondo;
+            }
+        }
+
+        .table__tfoot {
+            width: 100%;
+
+            .tfoot__td {
+                height: 4rem;
+                background: $colorEnunciado;
+                align-items: center;
+                justify-content: center;
+
+                .td__input {
+
+                    width: 100%;
+                    border-radius: 0.5rem;
+                    height: 2rem;
+                    background-color: white;
+                    color: black;
+                }
+
+                input[type="submit"] {
+                    margin: 0;
+                    width: 100%;
+                    background-color: $colorEnunciado;
+                    border-color: $colorFondo;
+                    color: $colorFondo;
+                }
+
+            }
+        }
+    }
+}
+
+.footer {
+    width: 100%;
+    padding: 0 3%;
+
+    .footer__p{
+        width: 80%;
+        text-align: center;
+    }
+
+}

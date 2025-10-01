@@ -1,6 +1,6 @@
-$colorFondo: black;
+$colorFondo: white;
 $colorEnunciado: #979797;
-$fontColor: white;
+$fontColor: black;
 
 
 
@@ -91,10 +91,15 @@ table {
                 margin: 0;
                 width: 100%;
                 background-color: $colorEnunciado;
-                border: 0.1rem solid;
                 border-color: $colorFondo;
             }
 
         }
     }
 }
+
+footer {
+    text-align: center;
+}
+
+

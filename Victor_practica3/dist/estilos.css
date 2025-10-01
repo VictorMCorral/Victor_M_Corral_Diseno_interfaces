@@ -1,8 +1,8 @@
 body {
-  color: white;
+  color: black;
   width: 100%;
   margin: 0;
-  background: black;
+  background: white;
 }
 
 .container {
@@ -44,15 +44,15 @@ table th,
 table td {
   padding: 0.5rem 1rem 0.5rem;
   text-align: left;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
 }
 table th input,
 table td input {
   width: 100%;
   border-radius: 0.5rem;
   height: 2rem;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 table th input[type=button],
 table td input[type=button] {
@@ -76,6 +76,9 @@ table tfoot td input[type=submit] {
   margin: 0;
   width: 100%;
   background-color: #979797;
-  border: 0.1rem solid;
-  border-color: black;
+  border-color: white;
+}
+
+footer {
+  text-align: center;
 }
