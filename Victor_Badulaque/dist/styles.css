@@ -74,6 +74,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 2.5rem;
 }
 .main-content .image-container img {
   padding: 1rem;
@@ -114,30 +115,25 @@ main {
 
 .amigos-container {
   height: 40rem;
+  width: 100%;
 }
-
-.imagen-principal {
-  margin-left: 0%;
+.amigos-container .bloque-secundario,
+.amigos-container .bloque-principal {
   height: 100%;
 }
-.imagen-principal img {
+.amigos-container .imagen-secundaria {
+  margin-left: 1%;
+  height: 33%;
+  padding: 0.5rem;
+}
+.amigos-container .imagen-secundaria img {
   height: 100%;
   object-fit: cover;
 }
-
-.bloque-secundario,
-.bloque-principal {
-  width: 100%;
+.amigos-container .imagen-principal {
   height: 100%;
-  margin-left: 1%;
-  gap: 1rem;
 }
-
-.imagen-secundaria {
-  margin-left: 1%;
-  height: 33%;
-}
-.imagen-secundaria img {
+.amigos-container .imagen-principal img {
   height: 100%;
   object-fit: cover;
 }

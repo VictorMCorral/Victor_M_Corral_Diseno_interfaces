@@ -88,9 +88,11 @@ main {
         display: flex;
         align-items: center;
         justify-content: center;
+        padding-top: 2.5rem;
 
         img {
             padding: 1rem;
+
             border-radius: 50%;
             background-color: #8a0000;
         }
@@ -138,33 +140,33 @@ main {
 
 .amigos-container {
     height: 40rem;
-}
-
-.imagen-principal {
-    margin-left: 0%;
-    height: 100%;
-    img{
-        height: 100%;
-        object-fit: cover;
-    }
-}
-
-.bloque-secundario,
-.bloque-principal {
     width: 100%;
-    height: 100%;
-    margin-left: 1%;
-    gap: 1rem;
-}
 
-.imagen-secundaria {
-    margin-left: 1%;
-    height: 33%;
-    
-    img{
+    .bloque-secundario,
+    .bloque-principal {
         height: 100%;
-        object-fit: cover;
+    }
+
+    .imagen-secundaria {
+        margin-left: 1%;
+        height: 33%;
+        padding: 0.5rem;
+
+        img {
+            height: 100%;
+            object-fit: cover;
+
+        }
 
     }
-    
+
+    .imagen-principal {
+        height: 100%;
+
+        img {
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
 }
