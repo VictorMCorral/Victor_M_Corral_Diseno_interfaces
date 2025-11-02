@@ -1,0 +1,106 @@
+//Colores
+// #3B060A
+// #8A0000
+// #c83F12
+// #FFF287
+
+body {
+    background-color: #3B060A;
+}
+
+.header {
+    margin-top: 5rem;
+    padding: 2rem;
+    width: 100%;
+
+    .container {
+        background-color: #c83F12;
+        width: 100%;
+    }
+}
+
+.header-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+
+    img {
+        padding: 2rem;
+        max-height: 5%;
+        max-width: 40%;
+        display: block;
+    }
+
+
+
+    .nav-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FFF287;
+        border-left: 3px solid #FFF287;
+        width: 33%;
+        height: 100%;
+        text-decoration: none;
+        padding: 0px 15px;
+        text-align: center;
+    }
+
+    .prueba {
+        display: flex;
+        justify-content: flex-end;
+        height: 100%;
+        align-items: center;
+    }
+}
+
+main {
+    padding: 3rem 2rem 2rem 2rem;
+    width: 100%;
+}
+
+.main-content {
+    background-color: #c83F12;
+    color: #FFF287;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .info-items {
+        margin-left: 0%;
+        text-align: center;
+        padding: 2rem;
+        height: 100%;
+
+    }
+
+    .info-landia {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ubication,
+    .contact {
+        margin-left: 0%;
+        border-left: 3px solid #FFF287;
+        background-color: #c83F12;
+        color: #FFF287;
+        height: 60px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact {
+        border-right: 3px solid #FFF287;
+    }
+}
+
+.marcas-content{
+    padding: 1rem;
+
+}
