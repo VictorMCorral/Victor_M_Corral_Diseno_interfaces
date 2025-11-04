@@ -7,6 +7,14 @@
 body {
     background-color: #3B060A;
     color: #FFF287;
+
+    .container {
+        width: 80%;
+    }
+}
+
+p{
+    padding-left: 4%;
 }
 
 footer {
@@ -68,7 +76,7 @@ footer {
 }
 
 main {
-    padding: 3rem 2rem 2rem 2rem;
+    padding: 2rem 2rem 2rem 2rem;
     width: 100%;
 }
 
@@ -88,11 +96,8 @@ main {
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-top: 2.5rem;
 
         img {
-            padding: 1rem;
-
             border-radius: 50%;
             background-color: #8a0000;
         }
@@ -169,4 +174,133 @@ main {
         }
     }
 
+}
+
+.main-content-encargos {
+    border-radius: 20px;
+    background-color: #c83F12;
+    color: #FFF287;
+    padding: 2rem;
+    margin: auto;
+
+    select {
+        color: gray;
+        width: 90%;
+        border: none;
+        border-radius: 4px;
+        padding: 0.5rem;
+    }
+
+    .centrar-columna {
+        text-align: center;
+    }
+
+    .total {
+        font-size: 5ch;
+    }
+
+    input[type="file"] {
+        width: 90%;
+    }
+
+    input[type="file"]::file-selector-button {
+        width: 55%;
+        background-color: #FFF287;
+        color: #c83F12;
+        border: none;
+        padding: 6px 10px;
+        border-radius: 4px;
+    }
+
+    .mensaje-final {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+
+    .mensaje {
+        display: flex;
+        justify-content: center;
+        background-color: #FFF287;
+        color: #c83F12;
+        border-radius: 4px;
+        padding: 1rem;
+    }
+
+    .imagen-peticion {
+        width: 50%;
+    }
+
+    input[type="file"]::file-selector-button:hover {
+        background-color: #8A0000;
+        color: #FFF287;
+    }
+
+    input[type="submit"]:hover {
+        color: #FFF287;
+        background-color: #8a0000;
+        border: none;
+    }
+
+    input[type="submit"] {
+        color: #c83F12;
+        background-color: #FFF287;
+        border: none;
+    }
+
+    .tabla-productos {
+        border-collapse: collapse;
+        width: 100%;
+        text-align: left;
+
+        thead {
+            background-color: #c83F12;
+        }
+
+        th {
+            padding: 10px;
+            color: white;
+        }
+
+        tbody tr,
+        thead tr {
+            border-bottom: 2px solid #FFF287;
+        }
+
+        tfoot tr,
+        tfoot tr td {
+            border-bottom: none;
+        }
+
+        td {
+            padding: 8px;
+        }
+
+        input[type="number"] {
+            width: 60px;
+            background-color: #c83F12;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            text-align: center;
+        }
+
+        tbody tr:hover {
+            background-color: #FFF287;
+            color: #8a0000;
+        }
+
+    }
+
+
+
+}
+
+.datos {
+    margin-left: 0%;
+    padding: 1rem;
+
+    .inputText {
+        width: 90%;
+    }
 }

@@ -1,29 +1,22 @@
-doctype html
-html(lang="en")
-    head
-        meta(charset="UTF-8")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        title Badulaque
-        link(rel="stylesheet" href="css/normalize.css")
-        link(rel="stylesheet" href="css/skeleton.css")
-        link(rel="stylesheet" href="styles.css")
-    body 
-        .container
-            include ./Modulos/header.html
-            main
-                .row.amigos-container
-                    .six.columns.bloque-principal
-                        include ./Modulos/imagen-princ.html
-                    .six.columns.bloque-secundario
-                            include ./Modulos/imagen-secun.html
-                            include ./Modulos/imagen-secun.html
-                            include ./Modulos/imagen-secun.html
-                            include ./Modulos/imagen-secun.html
-                            include ./Modulos/imagen-secun.html
-                            include ./Modulos/imagen-secun.html
-                            include ./Modulos/imagen-secun.html
-                            include ./Modulos/imagen-secun.html
-                            include ./Modulos/imagen-secun.html
+extends index.pug 
 
-            include ./Modulos/footer.html
+block content 
+    .container
+        include ./Modulos/header.html
+        main
+            .row.amigos-container
+                .six.columns.bloque-principal
+                    include ./Modulos/imagen-princ.html
+                .six.columns.bloque-secundario
+                        include ./Modulos/imagen-secun.html
+                        include ./Modulos/imagen-secun.html
+                        include ./Modulos/imagen-secun.html
+                        include ./Modulos/imagen-secun.html
+                        include ./Modulos/imagen-secun.html
+                        include ./Modulos/imagen-secun.html
+                        include ./Modulos/imagen-secun.html
+                        include ./Modulos/imagen-secun.html
+                        include ./Modulos/imagen-secun.html
+
+        include ./Modulos/footer.html
 

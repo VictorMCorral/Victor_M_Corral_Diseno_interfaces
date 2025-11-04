@@ -2,6 +2,13 @@ body {
   background-color: #3B060A;
   color: #FFF287;
 }
+body .container {
+  width: 80%;
+}
+
+p {
+  padding-left: 4%;
+}
 
 footer {
   text-align: center;
@@ -55,7 +62,7 @@ footer {
 }
 
 main {
-  padding: 3rem 2rem 2rem 2rem;
+  padding: 2rem 2rem 2rem 2rem;
   width: 100%;
 }
 
@@ -74,10 +81,8 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 2.5rem;
 }
 .main-content .image-container img {
-  padding: 1rem;
   border-radius: 50%;
   background-color: #8a0000;
 }
@@ -136,4 +141,109 @@ main {
 .amigos-container .imagen-principal img {
   height: 100%;
   object-fit: cover;
+}
+
+.main-content-encargos {
+  border-radius: 20px;
+  background-color: #c83F12;
+  color: #FFF287;
+  padding: 2rem;
+  margin: auto;
+}
+.main-content-encargos select {
+  color: gray;
+  width: 90%;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+.main-content-encargos .centrar-columna {
+  text-align: center;
+}
+.main-content-encargos .total {
+  font-size: 5ch;
+}
+.main-content-encargos input[type=file] {
+  width: 90%;
+}
+.main-content-encargos input[type=file]::file-selector-button {
+  width: 55%;
+  background-color: #FFF287;
+  color: #c83F12;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+.main-content-encargos .mensaje-final {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.main-content-encargos .mensaje {
+  display: flex;
+  justify-content: center;
+  background-color: #FFF287;
+  color: #c83F12;
+  border-radius: 4px;
+  padding: 1rem;
+}
+.main-content-encargos .imagen-peticion {
+  width: 50%;
+}
+.main-content-encargos input[type=file]::file-selector-button:hover {
+  background-color: #8A0000;
+  color: #FFF287;
+}
+.main-content-encargos input[type=submit]:hover {
+  color: #FFF287;
+  background-color: #8a0000;
+  border: none;
+}
+.main-content-encargos input[type=submit] {
+  color: #c83F12;
+  background-color: #FFF287;
+  border: none;
+}
+.main-content-encargos .tabla-productos {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+}
+.main-content-encargos .tabla-productos thead {
+  background-color: #c83F12;
+}
+.main-content-encargos .tabla-productos th {
+  padding: 10px;
+  color: white;
+}
+.main-content-encargos .tabla-productos tbody tr,
+.main-content-encargos .tabla-productos thead tr {
+  border-bottom: 2px solid #FFF287;
+}
+.main-content-encargos .tabla-productos tfoot tr,
+.main-content-encargos .tabla-productos tfoot tr td {
+  border-bottom: none;
+}
+.main-content-encargos .tabla-productos td {
+  padding: 8px;
+}
+.main-content-encargos .tabla-productos input[type=number] {
+  width: 60px;
+  background-color: #c83F12;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+}
+.main-content-encargos .tabla-productos tbody tr:hover {
+  background-color: #FFF287;
+  color: #8a0000;
+}
+
+.datos {
+  margin-left: 0%;
+  padding: 1rem;
+}
+.datos .inputText {
+  width: 90%;
 }

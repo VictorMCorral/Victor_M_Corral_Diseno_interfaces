@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badulaque</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body> 
+    <div class="container"><header class="header">
+    <div class="container">
+        <div class="row header-content">
+            <div class="six columns logo">
+                <a href="home.html"><img src="./brand/logo_Red.png" alt=""></a>
+            </div>
+            <div class="six columns prueba">
+                <a class="nav-item" href="amigos.html">Amigos</a>
+                <a class="nav-item" href="peticiones.html">Peticiones</a>
+                <a class="nav-item" href="encargos.html">Encargos</a>
+            </div>
+
+        </div>
+    </div>
+</header>
+      <main>
+        <div class="row marcas-content">
+    <div class="two columns logo-marcas">
+        <img class="u-max-full-width" src="../dist/brand/Marca (1).png">
+    </div>
+    <div class="two columns logo-marcas">
+        <img class="u-max-full-width" src="../dist/brand/Marca (2).png">
+    </div>
+    <div class="two columns logo-marcas">
+        <img class="u-max-full-width" src="../dist/brand/Marca (3).png">
+    </div>
+    <div class="two columns logo-marcas">
+        <img class="u-max-full-width" src="../dist/brand/Marca (4).png">
+    </div>
+    <div class="two columns logo-marcas">
+        <img class="u-max-full-width" src="../dist/brand/Marca (5).png">
+    </div>
+    <div class="two columns logo-marcas">
+        <img class="u-max-full-width" src="../dist/brand/peticion.png">
+    </div>
+</div><div class="row main-content-encargos">
+
+    <div class="twelve columns">
+        <h1>Encargos</h1>
+    </div>
+
+    <div class="twelve columns">
+        <form action="encargos-sucess.html" method="get">
+            <div class="row">
+                <div class="twelve columns">
+                    <h3>Datos personales</h3>
+                </div>
+                <div class="four columns datos">
+                    <label for="Nombre"> Nombre <br>
+                        <input type="text" class="inputText" placeholder="Introduce tu nombre">
+                    </label>
+                </div>
+                <div class="four columns datos">
+                    <label for="Correo"> Email <br>
+                        <input type="email" class="inputText" placeholder="Introduce tu email">
+                    </label>
+                </div>
+                <div class="four columns datos">
+                    <label for="Nombre"> Telefono <br>
+                        <input type="tel" class="inputText" placeholder="Introduce tu telefono">
+                    </label>
+                </div>
+            </div>
+            <div class="twelve columns">
+
+                <div class="twelve columns">
+                    <h3>Datos del encargo</h3>
+                </div>
+
+                <table class="tabla-productos">
+                    <thead>
+                        <tr>
+                            <th>Producto</th>
+                            <th>Descripción</th>
+                            <th class="centrar-columna">En pack</th>
+                            <th class="centrar-columna">Cantidad</th>
+                            <th class="centrar-columna">Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Aspitos</td>
+                            <td>Gusanitos</td>
+                            <td class="centrar-columna"><input type="checkbox" checked class="cantidad"></td>
+                            <td class="centrar-columna"><input type="number" value="5" min="1"></td>
+                            <td class="centrar-columna">1.50 €</td>
+                        </tr>
+                        <tr>
+                            <td>Chocolatinas</td>
+                            <td>Pequeñas e individuales</td>
+                            <td class="centrar-columna"><input type="checkbox" class="cantidad"></td>
+                            <td class="centrar-columna"><input type="number" value="2" min="1"></td>
+                            <td class="centrar-columna">0.50 €</td>
+                        </tr>
+                        <tr>
+                            <td>Gominolas</td>
+                            <td>Surtido de gominolas acidas</td>
+                            <td class="centrar-columna"><input type="checkbox" checked class="cantidad"></td>
+                            <td class="centrar-columna"><input type="number" value="3" min="1"></td>
+                            <td class="centrar-columna">2.50 €</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="5">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                    class="bi bi-plus-circle" viewBox="0 0 24 24">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                                    <path
+                                        d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                                </svg>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div  class="centrar-columna">
+                <input type="submit" value="Realizar encargo">
+            </div>
+            
+        </form>
+    </div>
+
+
+</div>
+      </main><footer>
+    <p>Diseño de interfaces -- Victor Manuel Corral Ruiz -- 2º DAW 2025-2026</p>
+</footer>
+    </div>
+  </body>
+</html>
