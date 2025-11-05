@@ -1,0 +1,22 @@
+body {
+  background-color: #3b060a;
+  color: #fff287;
+  padding: 50px;
+}
+
+.color_header_ver, .color_header_hor {
+  background-color: #c83f12;
+}
+
+a {
+  color: #fff287;
+}
+
+a:hover {
+  color: #3b060a;
+  background-color: #fff287;
+}
+
+.main_content_ver, .main_content_hor {
+  background-color: #c83f12;
+}
