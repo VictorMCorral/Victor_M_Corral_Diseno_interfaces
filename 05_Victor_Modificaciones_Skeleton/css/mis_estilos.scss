@@ -1,6 +1,6 @@
-@import "_normalize.scss";
-@import "_skeleton.scss";
-@import "_tam_lg.scss";
-@import "_colores";
-@import "_nav";
-@import "_main";
+@use "normalize.scss";
+@use "skeleton.scss";
+@use "tam_lg.scss";
+@use "misc.scss";
+@use "nav";
+@use "main";
