@@ -413,18 +413,6 @@ th {
   box-sizing: border-box;
 }
 
-.desaparecer {
-  display: none;
-}
-
-.aparecer {
-  display: block;
-}
-
-.container-fluid {
-  width: 100%;
-}
-
 .column,
 .columns {
   width: 100%;
@@ -1058,6 +1046,17 @@ there.
     display: none;
   }
   .aparecer-lg {
+    display: block;
+  }
+  .container-fluid {
+    width: 100%;
+  }
+}
+@media (min-width: 550px) {
+  .desaparecer {
+    display: none;
+  }
+  .aparecer {
     display: block;
   }
   .container-fluid {

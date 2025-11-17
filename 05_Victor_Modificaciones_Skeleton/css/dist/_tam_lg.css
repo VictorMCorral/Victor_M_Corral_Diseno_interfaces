@@ -158,3 +158,16 @@
     width: 100%;
   }
 }
+@media (min-width: 550px) {
+  .desaparecer {
+    display: none;
+  }
+
+  .aparecer {
+    display: block;
+  }
+
+  .container-fluid {
+    width: 100%;
+  }
+}
