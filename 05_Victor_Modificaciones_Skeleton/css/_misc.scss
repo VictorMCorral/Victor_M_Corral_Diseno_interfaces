@@ -1,23 +1,23 @@
 body{
-    background-color: --var(--colorPrincipal);
-    color: --var(--colorCuaternario);
+    background-color: var(--colorPrincipal);
+    color: var(--colorCuaternario);
     padding: 50px;
 
 }
 
 .color_header_ver, .color_header_hor {
-    background-color: --var(--colorTerciario);
+    background-color: var(--colorTerciario);
 }
 
 a{
-    color: --var(--colorCuaternario);
+    color: var(--colorCuaternario);
 }
 
 a:hover{
-    color: --var(--colorPrincipal);
-    background-color: --var(--colorCuaternario);
+    color: var(--colorPrincipal);
+    background-color: var(--colorCuaternario);
 }
 
 .main_content_ver, .main_content_hor{
-    background-color: --var(--colorTerciario);
+    background-color: var(--colorTerciario);
 }
