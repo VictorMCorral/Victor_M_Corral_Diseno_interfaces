@@ -17,6 +17,7 @@
 
     @include generar_columnas("lg");
 
+
     .one-lg.column,
     .one-lg.columns {
         width: 4.66666666667%;
@@ -155,6 +156,20 @@
     }
 
     .aparecer-lg {
+        display: block;
+    }
+
+    .container-fluid {
+        width: 100%;
+    }
+}
+
+@media (min-width: 550px) {
+    .desaparecer {
+        display: none;
+    }
+
+    .aparecer {
         display: block;
     }
 

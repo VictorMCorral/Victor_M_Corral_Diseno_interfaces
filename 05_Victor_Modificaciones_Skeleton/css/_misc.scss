@@ -1,25 +1,23 @@
-@use "colores" as *;
-
 body{
-    background-color: $color-oscuro;
-    color: $color-claro;
+    background-color: --var(--colorPrincipal);
+    color: --var(--colorCuaternario);
     padding: 50px;
 
 }
 
 .color_header_ver, .color_header_hor {
-    background-color: $color-mClaro;
+    background-color: --var(--colorTerciario);
 }
 
 a{
-    color: $color-claro;
+    color: --var(--colorCuaternario);
 }
 
 a:hover{
-    color: $color-oscuro;
-    background-color: $color-claro;
+    color: --var(--colorPrincipal);
+    background-color: --var(--colorCuaternario);
 }
 
 .main_content_ver, .main_content_hor{
-    background-color: $color-mClaro;
+    background-color: --var(--colorTerciario);
 }
