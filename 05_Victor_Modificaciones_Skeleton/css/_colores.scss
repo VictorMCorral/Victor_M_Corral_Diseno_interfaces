@@ -2,27 +2,3 @@ $color-oscuro: #3b060a;
 $color-mOscuro: #8a0000;
 $color-mClaro: #c83f12;
 $color-claro: #fff287;
-
-body{
-    background-color: $color-oscuro;
-    color: $color-claro;
-    padding: 50px;
-
-}
-
-.color_header_ver, .color_header_hor {
-    background-color: $color-mClaro;
-}
-
-a{
-    color: $color-claro;
-}
-
-a:hover{
-    color: $color-oscuro;
-    background-color: $color-claro;
-}
-
-.main_content_ver, .main_content_hor{
-    background-color: $color-mClaro;
-}
