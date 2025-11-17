@@ -1,3 +1,5 @@
-@use "colores";
-@use "nav";
-@use "main";
+@import "_normalize.scss";
+@import "_skeleton.scss";
+@import "_colores";
+@import "_nav";
+@import "_main";
