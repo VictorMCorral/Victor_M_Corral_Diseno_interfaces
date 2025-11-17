@@ -936,6 +936,8 @@ there.
 /* Larger than mobile */
 /* Larger than phablet (also point when grid becomes active) */
 /* Larger than tablet */
+/* Larger than desktop */
+/* Larger than Desktop HD */
 @media (min-width: 750px) {
   .container {
     width: 80%;
@@ -1062,8 +1064,6 @@ there.
     width: 100%;
   }
 }
-/* Larger than desktop */
-/* Larger than Desktop HD */
 body {
   background-color: #3b060a;
   color: #fff287;
